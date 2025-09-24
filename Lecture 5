@@ -1,1 +1,28 @@
+#include<iostream>
+using namespace std;
 
+int sum(int a,int b){
+    int s= a + b;
+    return s;
+    // cout<<s<<endl;
+    
+
+}
+
+int min(int a,int b){
+    if(a<b)
+    {
+return a;
+    }else{
+return b;
+    }
+}
+
+
+int main(){
+    // sum(10,5);
+    cout<<sum(10,5)<<endl;
+    cout<<"Min Number Between Two Nummber"<<min(5,3)<<endl;
+    return 0;
+
+}
